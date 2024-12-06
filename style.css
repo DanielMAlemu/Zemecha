@@ -1,0 +1,279 @@
+html,body{
+  height: 100%;
+  margin: 0;
+}
+/* Reset body margin */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+  }
+
+  a{
+    text-decoration: none;
+    color: yellowgreen;
+  }
+  
+  /* Container for header and buttons */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between; /* Spread elements */
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: navy;
+    color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    white-space: nowrap; /* Prevent wrapping */
+    box-sizing: border-box; /* Ensure padding doesn't break layout */
+  }
+  
+  /* Home link styling */
+  header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex-shrink: 0; /* Prevent shrinking of the link */
+    margin-right: 20px; /* Space between link and buttons */
+    margin-left: 20px;
+  }
+  
+  /* Language selection buttons container */
+  #language-selection {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    flex-wrap: nowrap; /* Prevent buttons from wrapping */
+    overflow-x: auto; /* Allow scrolling if buttons overflow on small screens */
+  }
+  
+  /* Language buttons */
+  #language-selection button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  /* Button hover effect */
+  #language-selection button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    header a {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+      margin-right: 10px;
+    }
+  
+    #language-selection button {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+
+  .main-container{
+    width: 100%;
+    background-color: #8f0558;
+
+  }
+  
+  #translated-content {
+    color: whitesmoke ;
+    padding: 30px;  /* Adjust padding as needed */
+    margin: 0 auto;  /* Center content horizontally */
+    max-width: 800px;  /* Set a maximum width for responsiveness */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+
+#overlay-img, .overlay-img {
+
+    width:500px;
+
+    height:auto;
+
+    display:block;
+
+    margin: 30px auto;
+
+}
+
+
+
+input {
+
+    display: block;
+
+    margin: 10px auto;
+
+}
+
+
+
+.inputfile {
+
+    width: 0.1px;
+
+    height: 0.1px;
+
+    opacity: 0;
+
+    overflow: hidden;
+
+    position: absolute;
+
+    z-index: -1;
+
+}
+
+
+
+.inputfile + label {
+
+    border-radius: 2px;
+
+    margin-top:40px;
+
+    display: inline-block;
+
+    padding: 10px 30px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+      vertical-align: middle;
+
+    color: white;
+
+    background-color: #8f0558;
+
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+
+
+.inputfile:focus + label,
+
+.inputfile + label:hover {
+
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+.inputfile + label {
+
+    cursor: pointer; /* "hand" cursor */
+
+}
+
+
+
+.inputfile:focus + label {
+
+    outline: 1px dotted #000;
+
+    outline: -webkit-focus-ring-color auto 5px;
+
+}
+
+
+
+.overlay-div {
+
+    text-align:center;
+
+}
+
+.download-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  
+  .download-button:hover {
+    background-color: #FF7F50;
+  }
+
+
+
+.madeBy {
+
+    text-align:center;
+
+    font-size: .7em;
+
+    margin: 50px auto 10px auto;
+
+}
+
+footer{
+
+  color: white;
+
+  background-color: #333333;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 24px;
+
+}
+
+footer a{
+
+  text-decoration: none;
+
+  color: wheat;
+
+  font-size: 0.7rem;
+
+  font-weight: bold;   
+
+}
+
+

@@ -1,0 +1,31 @@
+{
+    "amharic": {
+        "title": "ጥምረት ለማህበረሰብ ልማት",
+        "stopHateSpeech": "የጥላቻ ንግግርን ለመከላከል እድል በማግኘትዎ ደስ ይበልዎት!",
+        "create": "የፕሮፋይል ምስሎን ከንቅናቄው አላማ/ጭብጥ ጋር ያዋህዱ። ለጥላቻ ንግግር መቆም ያለዎትን ጉጉት እንዴት ማሳየት ይችላሉ? ለዘመቻው የፕሮፋይል ምስሎን ማዋህድ የሚችሉት በዚህ መንገድ ነው፡፡",
+        "locate": "የፕሮፋይል ምስሎን በኮምፒተርዎ ላይ ያግኙት ወይም የፕሮፋይል ምስሎን ለምሳሌ ከ Facebook ያውርዱ። (በቀኝ ጠቅ ያድርጉ እና “አስቀምጥ እንደ…”  የሚለውን ይምረጡ)።",
+        "select": "ከታች የእርስዎን ምስል ይምረጡ እና ተደራቢውን የፕሮፋይል ፍሬሙን ያረጋግጡ። ስኩዌር ምስሎች በተሻለ ሁኔታ ይሰራሉ፣ ምክንያቱም ምስሎቹን በራሱ ወደ ስኩዌር ስለሚቆረጡ።",
+        "download": "አዲሱን ምስልዎን ያውርዱ (በቀኝ ጠቅ ያድርጉ እና “አስቀምጥ እንደ …” የሚለውን ይምረጡ) እና በመረጡት ማህበራዊ አውታረ መረቦች ላይ ይጠቀሙት።",
+        "learn": "ስለ ፕሮግራሙ ተጨማሪ መረጃ (በድሬዳዋ ከተማ አስተዳደር ስለ ዲጂታል ዜግነት እና የመገናኛ ብዙሃን እውቀት፡ ወጣቶችን ለሰላም ግንባታ ማብቃት) በዚህ ገጽ  ማግኘት ይችላሉ።"
+        
+    },
+    "somali": {
+        "title": "Iskaashiga Horumarinta Bulshada",
+        "stopHateSpeech": "Soo dhowow dagaalka ka dhanka ah hadalka nacaybka!",
+        "create": "joojinta hadalada nacaybka leh! Abuur sawir muuqaal olole leh waa inaad mawduc Sidee uu fiican inaad muujiso rajadaada hadalada nacaybka? Tani waa sidaa aad u abuuri karto sawirka profile kaaga Ololaha: wanaagsan.",
+        "locate": "kumbuyuutarkaaga, ama ka soo deji sawirka astaantaada tusaale. Facebook (midig ku dhufo oo dooro 'Save As...').",
+        "select": "Hoos ka dooro sawirkaaga, oo hubi dusha sare. Sawirada labajibbaaran ayaa sida ugu fiican u shaqeeya, maadaama sawirka si toos ah loo gooyay si uu noqdo afar gees.",
+        "download": "Soo deji sawirkaaga cusub (midig-guji oo dooro 'Save As...') oo dhig shabakadaha bulshada ee aad dooratay.",
+        "learn": "Waxaad ka heli kartaa macluumaad dheeraad ah oo ku saabsan barnaamijka (Digital Citizenship and Media Literacy: Empowering Youth for Peace Building) Maamulka Magaalada Dir dhaba"  
+    },
+    "afan": {
+        "title": "Gamtaa misooma hawaasaaf",
+        "stopHateSpeech": "Haasawa jibbiinsaa ittisuuf carraa keessan itti gammadaa!",
+        "create": "Suuraa piroofaayilii keessanii kaayyoo/mata duree sochii sanaa wajjin walitti makaa. Haasaa jibbiinsaa dura dhaabbachuuf fedhii akka qabdu akkamitti argisiisuu dandeessa? Duula kanaaf suuraa piroofaayilii keessan walitti makuuf haala armaan gadii kana fayyadamuu dandeessu.",
+        "locate": "Suuraa piroofaayilii kompiitara keessan keessa barbaadaa ykn suuraa piroofaayilii fakkeenyaaf Facebook irraa buufadhaa. (Karaa Mirgaa tuquun  “Save As...” filadhaa ).",
+        "select": "Suuraa kee armaan gadii filadhuutii uwwisa furmaata piroofaayilii ilaali. Fakkiiwwan iskuweerii akka gaariitti hojjetu, sababiin isaas isaan ofumaan fakkiiwwan gara iskuweeriitti waan jijjiiraniif ykn muraniif.",
+        "download": "Suuraa haaraa keessan buufadhaa (kara mirgaa tuuun  “Save As...” filadhaa) sana booda  marsaalee hawaasaa filattan irratti fayyadamaa.",
+        "learn": "deeffannoo dabalataa waa’ee sagantichaa (biiroo bulchiinsa dirree dhawaatti waa'ee lammummaa digitaalawaa fi beekkumsa miidiyaa hawaasaa;dargaggoota ijaarsa nageenyaatiif gahoomsuu) kan jedhu link ykn fuula irraa argachuu dandeessu"
+        
+    }
+}
